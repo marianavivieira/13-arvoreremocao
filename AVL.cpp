@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 /* -----------------------------------------------------------
@@ -212,7 +212,7 @@ NO* girarEsquerda(NO* x)
     // Passo 5: Retorna nova raiz
     return y;
 }
-
+ 
 // Função auxiliar para balancear um nó AVL
 NO* balancearNo(NO* no) {
     if (no == NULL) return no;
